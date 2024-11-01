@@ -1,0 +1,51 @@
+/*	Tippr Styles	*/
+#tip-head-left {
+	background-image: url('http://groups-beta.google.com/groups/roundedcorners?c=dddddd&bc=white&w=10&h=10&a=tl');
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 6px !important;
+}
+
+#tip-head-right {
+	background-image: url('http://groups-beta.google.com/groups/roundedcorners?c=dddddd&bc=white&w=10&h=10&a=tr');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.tip-head {
+	background-color: #ddd;
+	font-weight: bold;
+	padding: 4px;
+	color: #444;
+}
+
+.tip-body {
+	padding: 4px;
+	font-size: 10px;
+	background-color: white;
+	border-width: 0px 1px 1px;
+	border-color: #ddd;
+	border-style: solid;
+	color: #444;
+	overflow: hidden;
+}
+
+#tippr-left {
+	padding-right: 20px;
+	background-image: url(tippr-left.png);
+	background-position: right top;
+}
+
+#tippr-right {
+	padding-left: 20px;
+	background-image: url(tippr-right.png);
+	background-position: left top;
+}
+
+.tippr {
+	background-color: transparent;
+	width: 300px;
+	font: 11px Verdana;
+	background-repeat: no-repeat;
+	display: none;
+}
